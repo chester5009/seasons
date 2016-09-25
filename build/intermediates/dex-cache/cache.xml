@@ -3,21 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="/home/chester/Android_projects/Seasons/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="3aaac4bb2ec75516e2806a70b3673b57fbcaa8b2">
-        <dex dex="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5305145a8cdc02e79f27459ba18272c22530e2cf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/chester/Android_projects/Seasons/android/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
         <dex dex="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_c33eef74c7821ab3c9dd34aa673913387da355eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chester/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.4/194b33382d6d58fad031521ba3331d926c476c9b/gdx-backend-android-1.9.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="194b33382d6d58fad031521ba3331d926c476c9b">
+        <dex dex="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-backend-android-1.9.4_7f8f5bbb22863ccd3902c1166bd9a518d2373447/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chester/Android_projects/Seasons/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="def6d8a79ff66dba2f593b958f97562c97dc8587">
+        <dex dex="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5305145a8cdc02e79f27459ba18272c22530e2cf/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -34,17 +43,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="2436144f779ef78c201f3f98513ea29bdf0abcbc">
+        sha1="f0c66db652f52295e7cb2efef024e1792421ee70">
         <dex dex="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bfbaebfe002a33a8384d01b67d0c6e68cde29e29/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/chester/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.4/194b33382d6d58fad031521ba3331d926c476c9b/gdx-backend-android-1.9.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="194b33382d6d58fad031521ba3331d926c476c9b">
-        <dex dex="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-backend-android-1.9.4_7f8f5bbb22863ccd3902c1166bd9a518d2373447/classes.dex" />
     </item>
 
 </items>

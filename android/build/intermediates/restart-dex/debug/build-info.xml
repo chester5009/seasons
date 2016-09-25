@@ -4,51 +4,46 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="17061639064927"
+    timestamp="16963221024323"
     token="-9206592555546493613"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="363" />
+        duration="25" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="59" />
+        duration="19" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
-    <artifact
-        location="/home/chester/Android_projects/Seasons/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
     <artifact
         location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
         type="DEX" />
-    <artifact
-        location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
-        type="DEX" />
 
     <build
-        timestamp="5438270175384"
+        timestamp="13066925695887"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/chester/Android_projects/Seasons/android/build/outputs/apk/android-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="17061639064927"
+        timestamp="14910964913911"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/chester/Android_projects/Seasons/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="16963221024323"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
             type="DEX" />
     </build>
 
