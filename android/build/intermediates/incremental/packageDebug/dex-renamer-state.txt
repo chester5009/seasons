@@ -1,4 +1,4 @@
-#Sun Sep 25 17:33:50 MSK 2016
+#Thu Sep 29 16:02:42 MSK 2016
 base.0=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5305145a8cdc02e79f27459ba18272c22530e2cf
 renamed.1=classes2.dex
 renamed.0=classes.dex

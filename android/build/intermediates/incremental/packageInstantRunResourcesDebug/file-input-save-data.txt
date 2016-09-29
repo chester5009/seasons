@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Sep 25 17:33:42 MSK 2016
+#Thu Sep 29 16:14:24 MSK 2016
 2.base=/home/chester/Android_projects/Seasons/android/build/intermediates/res/resources-debug.ap_
 5.file=/home/chester/Android_projects/Seasons/android/build/intermediates/assets/debug/badlogic.jpg
 5.set=ASSET
@@ -17,13 +17,13 @@ count=11
 8.file=/home/chester/Android_projects/Seasons/android/build/intermediates/res/resources-debug.ap_/resources.arsc
 4.set=ASSET
 6.base=/home/chester/Android_projects/Seasons/android/build/intermediates/assets/debug
-1.file=/home/chester/Android_projects/Seasons/android/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+1.file=/home/chester/Android_projects/Seasons/android/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
 9.set=ASSET
 9.file=/home/chester/Android_projects/Seasons/android/build/intermediates/assets/debug/matrix.jpg
 10.base=/home/chester/Android_projects/Seasons/android/build/intermediates/assets/debug
 1.set=ANDROID_RESOURCE
 7.base=/home/chester/Android_projects/Seasons/android/build/intermediates/assets/debug
-2.file=/home/chester/Android_projects/Seasons/android/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
+2.file=/home/chester/Android_projects/Seasons/android/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 6.set=ASSET
 0.base=/home/chester/Android_projects/Seasons/android/build/intermediates/assets/debug
 8.base=/home/chester/Android_projects/Seasons/android/build/intermediates/res/resources-debug.ap_

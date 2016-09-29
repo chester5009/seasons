@@ -9,14 +9,16 @@ import com.seasons.game.states.GameStateManager;
 import com.seasons.game.states.MenuState;
 
 public class SeasonsClass extends ApplicationAdapter {
+	public static int WIDTH;
+	public static int HEIGHT;
 	SpriteBatch batch;
-	Texture img;
 	GameStateManager gsm;
 	@Override
 	public void create () {
+		WIDTH=Gdx.graphics.getWidth();
+		HEIGHT=Gdx.graphics.getHeight();
 		batch = new SpriteBatch();
 		gsm=new GameStateManager();
-		img = new Texture("priroda.jpg");
 		gsm.push(new MenuState(gsm));
 	}
 
@@ -31,6 +33,6 @@ public class SeasonsClass extends ApplicationAdapter {
 	@Override
 	public void dispose () {
 		batch.dispose();
-		img.dispose();
+
 	}
 }

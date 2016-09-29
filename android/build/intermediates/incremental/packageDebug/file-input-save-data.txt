@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Sep 25 17:33:50 MSK 2016
+#Thu Sep 29 16:02:42 MSK 2016
 25.file=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bfbaebfe002a33a8384d01b67d0c6e68cde29e29/classes.dex
 41.base=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
 25.base=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bfbaebfe002a33a8384d01b67d0c6e68cde29e29
@@ -16,7 +16,7 @@
 14.base=/home/chester/Android_projects/Seasons/android/build/intermediates/assets/debug
 16.set=DEX
 count=42
-6.file=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar/com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl
+6.file=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar/com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl
 6.base=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar
 26.file=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar/com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl
 2.set=DEX
@@ -37,7 +37,7 @@ count=42
 31.base=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
 15.base=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-backend-android-1.9.4_7f8f5bbb22863ccd3902c1166bd9a518d2373447
 26.set=JAVA_RESOURCE
-7.file=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar/com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl
+7.file=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar/com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl
 7.base=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar
 15.set=DEX
 27.file=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libgdx.so

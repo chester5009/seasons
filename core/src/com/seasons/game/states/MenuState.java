@@ -15,8 +15,8 @@ public class MenuState extends State {
 
     public MenuState(GameStateManager gsm) {
         super(gsm);
-        background=new Texture("menu.jpg");
-        playBtn=new Texture("buttoonStart.jpg");
+        background=new Texture("fon.png");
+        playBtn=new Texture("igrat.png");
     }
 
     @Override
@@ -36,7 +36,7 @@ public class MenuState extends State {
         sb.begin();
 
         sb.draw(background,0,0, Gdx.graphics.getWidth(),Gdx.graphics.getHeight());
-        sb.draw(playBtn,Gdx.graphics.getWidth()/2-playBtn.getWidth()/2,Gdx.graphics.getHeight()/2-playBtn.getHeight()/2);
+        sb.draw(playBtn,Gdx.graphics.getWidth()/2-playBtn.getWidth()/2,Gdx.graphics.getHeight()/3*2-playBtn.getHeight()/2);
 
         sb.end();
     }
