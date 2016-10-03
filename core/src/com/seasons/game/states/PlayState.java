@@ -5,9 +5,11 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.scenes.scene2d.ui.List;
 import com.seasons.game.GameTime;
 import com.seasons.game.SeasonsClass;
+import com.seasons.game.units.Player;
 
 
 import java.util.ArrayList;
@@ -20,12 +22,13 @@ public class PlayState extends State {
     Texture background;
     BitmapFont font;
     GameTime gt;
+    Player player;
 
     public PlayState(GameStateManager gsm) {
         super(gsm);
         background=new Texture("leto_den_pattern_tsv.png");
         font=new BitmapFont();
-        font.getData().setScale(2.f,2.f);
+        player=new Player(new Texture("hero.png"),new Vector3(50,150,0));
         gt=new GameTime();
         camera.setToOrtho(false,SeasonsClass.WIDTH/2,SeasonsClass.HEIGHT/2);
 
@@ -41,9 +44,12 @@ public class PlayState extends State {
 
     @Override
     public void update(float dt) {
-        camera.position.x+=2;
+        //camera.position.x+=2;
         handleInput();
         gt.update(dt);
+
+        player.update(dt);
+
         camera.update();
     }
 
@@ -54,7 +60,9 @@ public class PlayState extends State {
         sb.draw(background,0,0, camera.viewportWidth,camera.viewportHeight);
         font.draw(sb,gt.getTime(),40,40);
         font.setColor(Color.BLUE);
-        font.draw(sb,"camera position "+camera.position.x+" "+camera.position.y,40,100);
+
+        player.draw(sb);
+
         sb.end();
         //sb.draw(cat, Gdx.graphics.getWidth()/2-cat.getWidth()*4/2, Gdx.graphics.getHeight()/2-cat.getHeight()*4/2,cat.getWidth()*4,cat.getHeight()*4);
 

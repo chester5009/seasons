@@ -4,53 +4,53 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="5662213203245"
+    timestamp="9512329404367"
     token="-9206592555546493613"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="22" />
+        duration="13" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3" />
+        duration="18" />
     <task
         name="verifier"
         duration="1" />
 
     <artifact
-        location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="489480576757"
+        timestamp="6615849615017"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/chester/Android_projects/Seasons/android/build/outputs/apk/android-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1201331756101"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/chester/Android_projects/Seasons/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="4683413123937"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="5662213203245"
+        timestamp="7626062589353"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="7778666004008"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="9512329404367"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
             type="DEX" />
     </build>
 

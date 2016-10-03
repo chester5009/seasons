@@ -1,12 +1,14 @@
 package com.seasons.game;
 
+import com.seasons.game.units.Player;
+
 /**
  * Created by chester on 29.09.16.
  */
 
 public class GameTime {
     float timerSpawn=0;
-    float timeSpawn=4f;
+    float timeSpawn=0.5f;
 
     int hours,days,months,years;
 
