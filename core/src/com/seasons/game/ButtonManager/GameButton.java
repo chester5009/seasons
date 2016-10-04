@@ -51,6 +51,9 @@ public class GameButton {
         System.out.println("Button!: "+position.x+" "+position.y+" "+(position.x+width)+" "+(position.y+height));
     }
 
+    public void setPosition(Vector3 pos){
+        this.position=pos;
+    }
 
 
     public void draw(SpriteBatch sb){

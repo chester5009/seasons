@@ -13,16 +13,22 @@ public class Player extends Unit {
 
     public Player(Texture t, Vector3 position) {
         super(t, position);
-        direction=2;
+        direction=0;
+    }
+
+    public void setDirection(int dir){
+        direction=dir;
     }
 
     @Override
     public void update(float dt) {
         if(direction==1) velocity=new Vector3(-2,0,0);
         if(direction==2) velocity=new Vector3(2,0,0);
-        if(direction==3) velocity=new Vector3(0,0,0);
+        if(direction==0) velocity=new Vector3(0,0,0);
 
         position.add(velocity);
+
+        System.out.println(direction);
     }
 
     @Override
@@ -35,5 +41,9 @@ public class Player extends Unit {
     }
     public Texture getTexture(){
         return this.texture;
+    }
+
+    public void move(Vector3 speed){
+        position.add(speed);
     }
 }

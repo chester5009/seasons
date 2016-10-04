@@ -41,7 +41,7 @@ public class ButtonManager {
                 actions.add(gb.getAction());
             }
         }*/
-        System.out.println(actions.size());
+
     }
 
     public ButtonActions.Action screenClick(float x,float y){

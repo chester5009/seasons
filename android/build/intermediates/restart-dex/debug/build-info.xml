@@ -4,7 +4,7 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="22619257984771"
+    timestamp="7847038453154"
     token="-9206592555546493613"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -16,7 +16,7 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3" />
+        duration="6" />
     <task
         name="verifier"
         duration="0" />
@@ -24,26 +24,32 @@
     <artifact
         location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
         type="DEX" />
+    <artifact
+        location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="17628700624448"
+        timestamp="5322026155658"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/chester/Android_projects/Seasons/android/build/outputs/apk/android-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="22448755737164"
+        timestamp="7383683282877"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="22619257984771"
+        timestamp="7847038453154"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
             type="DEX" />
     </build>
 
