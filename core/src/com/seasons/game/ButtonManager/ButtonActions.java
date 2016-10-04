@@ -1,4 +1,3 @@
-package com.seasons.game.ButtonManager;
 
 /**
  * Created by chester on 03.10.16.

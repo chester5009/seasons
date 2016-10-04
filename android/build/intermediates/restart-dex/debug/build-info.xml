@@ -4,48 +4,27 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="9512329404367"
+    timestamp="1854020163927"
     token="-9206592555546493613"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="13" />
+        duration="268" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="18" />
+        duration="88" />
     <task
         name="verifier"
-        duration="1" />
+        duration="36" />
 
     <artifact
-        location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
-        type="DEX" />
+        location="/home/chester/Android_projects/Seasons/android/build/outputs/apk/android-debug.apk"
+        type="MAIN" />
 
-    <build
-        timestamp="6615849615017"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/chester/Android_projects/Seasons/android/build/outputs/apk/android-debug.apk"
-            type="MAIN" />
-    </build>
-    <build
-        timestamp="7626062589353"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="7778666004008"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
-    </build>
     <build
         timestamp="9512329404367"
         verifier="COLD_SWAP_REQUESTED" >
