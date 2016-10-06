@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Matrix4;
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.scenes.scene2d.ui.List;
 import com.seasons.game.ButtonManager.ButtonActions;
@@ -13,6 +14,7 @@ import com.seasons.game.ButtonManager.GameButton;
 import com.seasons.game.ButtonManager.MyInputProcessor;
 import com.seasons.game.GameTime;
 import com.seasons.game.SeasonsClass;
+import com.seasons.game.backgroundManager.BackgroundManager;
 import com.seasons.game.units.Player;
 
 
@@ -29,6 +31,7 @@ public class PlayState extends State {
     Player player;
     Texture arrowBtn;
     ButtonManager bm;
+    BackgroundManager bgm;
 
 
     public PlayState(GameStateManager gsm) {
@@ -42,9 +45,12 @@ public class PlayState extends State {
 
         gt=new GameTime();
         camera.setToOrtho(false,SeasonsClass.WIDTH/2,SeasonsClass.HEIGHT/2);
+        staticCamera.setToOrtho(false,SeasonsClass.WIDTH/2,SeasonsClass.HEIGHT/2);
 
-        bm.addButton(new GameButton(arrowBtn, ButtonActions.Action.MOVE_LEFT,new Vector3(camera.position.x-camera.viewportWidth/2,camera.position.y,0),100,30,0,1,1,0));
-        bm.addButton(new GameButton(arrowBtn, ButtonActions.Action.MOVE_RIGHT,new Vector3(camera.position.x+camera.viewportWidth/2-100,camera.position.y,0),100,30,1,0,0,1));
+        bgm=new BackgroundManager(background,camera);
+
+        bm.addButton(new GameButton(arrowBtn, ButtonActions.Action.MOVE_LEFT,new Vector3(staticCamera.position.x-staticCamera.viewportWidth/2,staticCamera.position.y/2,0),70,30,0,1,1,0));
+        bm.addButton(new GameButton(arrowBtn, ButtonActions.Action.MOVE_RIGHT,new Vector3(staticCamera.position.x-staticCamera.viewportWidth/2+100,staticCamera.position.y/2,0),70,30,1,0,0,1));
     }
 
     @Override
@@ -68,8 +74,9 @@ public class PlayState extends State {
         gt.update(dt);
         bm.update(dt);
         player.update(dt);
-        //camera.position.x=player.getPosition().x;
-        //camera.position.y=player.getPosition().y;
+        bgm.update(player.getPosition().x);
+        camera.position.x=player.getPosition().x;
+        camera.position.y=SeasonsClass.HEIGHT/4;
 
         camera.update();
     }
@@ -78,14 +85,19 @@ public class PlayState extends State {
     public void render(SpriteBatch sb) {
         sb.setProjectionMatrix(camera.combined);
         sb.begin();
-        sb.draw(background,0,0, camera.viewportWidth,camera.viewportHeight);
-        font.draw(sb,gt.getTime(),40,40);
-        font.setColor(Color.BLUE);
-
+        bgm.draw(sb,camera);
+        //sb.draw(background,0,0, camera.viewportWidth,camera.viewportHeight);
         player.draw(sb);
-
-        bm.draw(sb);
         sb.end();
+
+        sb.setProjectionMatrix(staticCamera.combined);
+        sb.begin();
+        bm.draw(sb);
+        font.getData().setScale(1.2f,1.2f);
+        font.setColor(Color.RED);
+        font.draw(sb,gt.getTime()+" "+player.getPosition().x+bgm.getData(),40,40);
+        sb.end();
+
         //sb.draw(cat, Gdx.graphics.getWidth()/2-cat.getWidth()*4/2, Gdx.graphics.getHeight()/2-cat.getHeight()*4/2,cat.getWidth()*4,cat.getHeight()*4);
 
     }

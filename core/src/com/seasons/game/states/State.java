@@ -11,12 +11,14 @@ import com.badlogic.gdx.math.Vector3;
 public abstract class State {
 
     protected OrthographicCamera camera;
+    protected OrthographicCamera staticCamera;
     protected Vector3 mouse;
     protected GameStateManager gsm;
 
     public State(GameStateManager gsm){
         this.gsm=gsm;
         camera=new OrthographicCamera();
+        staticCamera=new OrthographicCamera();
         mouse=new Vector3();
 
     }
