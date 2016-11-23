@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/chester/programming/android-projects/seasons/android/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/home/chester/programming/android-projects/seasons/android/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/chester/Android_projects/Seasons/android/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
         "source": "/home/chester/Android_projects/Seasons/android/res/drawable-hdpi/ic_launcher.png"
     }

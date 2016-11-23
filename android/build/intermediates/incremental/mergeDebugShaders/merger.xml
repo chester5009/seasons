@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/chester/Android_projects/Seasons/android/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/chester/Android_projects/Seasons/android/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/chester/programming/android-projects/seasons/android/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/chester/programming/android-projects/seasons/android/src/debug/shaders"/></dataSet></merger>

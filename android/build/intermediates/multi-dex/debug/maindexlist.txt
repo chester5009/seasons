@@ -1,0 +1,17 @@
+com/badlogic/gdx/graphics/g3d/utils/shapebuilders/SphereShapeBuilder.class
+com/badlogic/gdx/graphics/g3d/utils/MeshBuilder.class
+android/support/multidex/ZipUtil$CentralDirectory.class
+com/badlogic/gdx/graphics/GL30.class
+android/support/multidex/MultiDex$V4.class
+com/badlogic/gdx/graphics/g3d/utils/MeshPartBuilder.class
+com/badlogic/gdx/graphics/g3d/shaders/DefaultShader.class
+android/support/multidex/MultiDex$V14.class
+com/badlogic/gdx/backends/android/AndroidApplicationConfiguration.class
+com/badlogic/gdx/utils/JsonValue.class
+android/support/multidex/MultiDex.class
+android/support/multidex/MultiDexApplication.class
+android/support/multidex/MultiDex$V19.class
+android/support/multidex/ZipUtil.class
+android/support/multidex/MultiDexExtractor$1.class
+android/support/multidex/MultiDexExtractor.class
+com/badlogic/gdx/graphics/g2d/SpriteBatch.class

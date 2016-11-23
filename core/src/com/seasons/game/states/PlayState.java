@@ -41,7 +41,7 @@ public class PlayState extends State {
         background=new Texture("leto_den_pattern_tsv.png");
         arrowBtn=new Texture("arrow.png");
         font=new BitmapFont();
-        player=new Player(new Texture("hero.png"),new Vector3(50,150,0));
+        player=new Player(new Texture("man.png"),new Vector3(50,150,0));
 
         gt=new GameTime();
         camera.setToOrtho(false,SeasonsClass.WIDTH/2,SeasonsClass.HEIGHT/2);

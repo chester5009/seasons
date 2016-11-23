@@ -1,7 +1,4 @@
-#Thu Oct 06 10:24:29 MSK 2016
-base.0=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5305145a8cdc02e79f27459ba18272c22530e2cf
-renamed.1=classes2.dex
+#Wed Nov 23 23:24:09 MSK 2016
+base.0=/home/chester/programming/android-projects/seasons/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bfbaebfe002a33a8384d01b67d0c6e68cde29e29/classes.dex
-base.1=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bfbaebfe002a33a8384d01b67d0c6e68cde29e29
-file.0=/home/chester/Android_projects/Seasons/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5305145a8cdc02e79f27459ba18272c22530e2cf/classes.dex
+file.0=/home/chester/programming/android-projects/seasons/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
